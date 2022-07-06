@@ -7,9 +7,9 @@
 <title>Top Page</title>
 </head>
 <body>
-<h1>トップメニュー</h1>
-どちらでご利用ですか？<br>
-<a href="u_login.jsp">ユーザー</a><br>
-<a href="a_login.jsp">管理者</a>
+	<h1>トップメニュー</h1>
+	どちらでご利用ですか？<br>
+	<a href="u_login.jsp">ユーザー</a><br>
+	<a href="a_login.jsp">管理者</a>
 </body>
 </html>
