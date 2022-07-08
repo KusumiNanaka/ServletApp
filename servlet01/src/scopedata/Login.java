@@ -6,7 +6,6 @@ public class Login implements Serializable{
 	private String id;
 	private String pass;
 
-	public Login() {}
 	public Login(String _id , String _pass) {
 		id = _id;
 		pass = _pass;

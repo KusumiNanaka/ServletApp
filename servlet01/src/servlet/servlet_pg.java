@@ -1,4 +1,4 @@
-package model;
+package servlet;
 
 import java.io.IOException;
 
@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import model.LoginLogic;
 import scopedata.Login;
 
 @WebServlet("/servlet_pg")
@@ -35,7 +36,7 @@ public class servlet_pg extends HttpServlet {
 		if(r == true) {
 			path = "WebContent/jsp/u_menu.jsp";
 		}else {
-			path = "WebContent/jsp/loginErr.jsp";
+			path = "WebContent/jsp/logno.jsp";
 		}
 		RequestDispatcher dispatcher = request.getRequestDispatcher(path);
 		dispatcher.forward(request, response);
