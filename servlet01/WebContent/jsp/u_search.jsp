@@ -65,19 +65,26 @@
 <option value="鹿児島県">鹿児島県</option>
 <option value="沖縄県">沖縄県</option>
 </select>
-  			<label>業種選択</label><br>
-  			<select name="pref_id">
-<option value="" selected>都道府県</option>
+<br>
+
+<label>業種選択</label><br>
+<select name="pref_id">
+<option value="" selected>全て</option>
 <option value="1">製造業</option>
 <option value="2">卸売業・小売業</option>
 <option value="3">金融業・保険業</option>
 <option value="4">開発・情報通信業</option>
 <option value="5">建設業</option>
 <option value="6">その他</option>
+</select>
+<br>
+
   			<label>企業規模</label><br>
   			<input type="text" name="size" value=""><br>
+
   			<label>月収</label><br>
   			<input type="text" name="income" value=""><br>
+
   			<input type="submit" value="検索"><br>
 		</form>
 		<button type="button" onclick="history.back()">戻る</button>
