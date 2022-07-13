@@ -19,8 +19,7 @@ body{
 }
 /* 要素内の指定 */
 .whiteblock .blocktext{
-    display:inline-block;
-    line-height:nomal;     	/* 行の間隔(nomalはデフォルト) */
+    display:inline-block;     	/* 行の間隔(nomalはデフォルト) */
     vertical-align: middle;	/* 上下中央揃え */
     text-align: center;		/* 左右中央揃え */
 }
