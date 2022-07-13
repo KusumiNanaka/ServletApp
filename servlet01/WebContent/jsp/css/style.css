@@ -23,6 +23,7 @@ body{
     vertical-align: middle;	/* 上下中央揃え */
     text-align: center;		/* 左右中央揃え */
 }
+
 /* 象とキリンの位置設定 */
 .imagezou{
     width:140px;
