@@ -15,7 +15,7 @@ body{
     /* 要素の位置指定 */
     text-align: center;
     border-radius: 10px; /* ボックスの四つ角を丸くする */
-    border: 2px solid #b20000; /* 境界線を実線で指定 */
+    border: 2px solid rgb(178, 0, 0); /* 境界線を実線で指定 */
 }
 /* 要素内の指定 */
 .whiteblock .blocktext{
@@ -23,6 +23,7 @@ body{
     vertical-align: middle;	/* 上下中央揃え */
     text-align: center;		/* 左右中央揃え */
 }
+
 
 /* 象とキリンの位置設定 */
 .imagezou{
