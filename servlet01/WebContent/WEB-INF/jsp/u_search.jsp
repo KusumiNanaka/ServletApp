@@ -88,7 +88,6 @@
   			<input type="submit" value="検索"><br>
 		</form>
 		<button type="button" onclick="history.back()">戻る</button>
-	</p>
 </div>
 </body>
 </html>
