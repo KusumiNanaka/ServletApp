@@ -18,7 +18,7 @@ public class servlet_pg extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		RequestDispatcher dispatcher = request.getRequestDispatcher("WebContent/jsp/u_login.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("WEB-INF/jsp/u_login.jsp");
 		dispatcher.forward(request, response);
 	}
 
@@ -34,9 +34,9 @@ public class servlet_pg extends HttpServlet {
 		LoginLogic bo = new LoginLogic();
 		boolean r = bo.execute(login);
 		if(r == true) {
-			path = "WebContent/jsp/u_menu.jsp";
+			path = "WEB-INF/jsp/u_menu.jsp";
 		}else {
-			path = "WebContent/jsp/logno.jsp";
+			path = "WEB-INF/jsp/logno.jsp";
 		}
 		RequestDispatcher dispatcher = request.getRequestDispatcher(path);
 		dispatcher.forward(request, response);

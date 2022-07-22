@@ -24,6 +24,12 @@ body{
     text-align: center;		/* 左右中央揃え */
 }
 
+.button{
+	padding-top:30px;
+	display:flex;
+	justify-content:space-evenly;
+}
+
 
 /* 象とキリンの位置設定 */
 .imagezou{

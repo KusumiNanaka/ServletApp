@@ -85,9 +85,11 @@
   			<label>月収</label><br>
   			<input type="text" name="income" value=""><br>
 
-  			<input type="submit" value="検索"><br>
-		</form>
+  			<input type="submit" value="検索">
 		<button type="button" onclick="history.back()">戻る</button>
+		</form>
 </div>
+<img src="./css/image/kirin.png" class="imagekirin">
+    <img src="./css/image/zou.png" class="imagezou">
 </body>
 </html>

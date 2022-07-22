@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="WEB-INF/jsp/css/style.css">
 <meta charset="UTF-8">
 <title>利用者ページ</title>
 </head>
@@ -15,7 +15,7 @@
 		パスワード:<input type="password" name="pass"><br>
 		<input type="submit" value="ログイン">
 	</form>
-	新規登録は<a href="u_reg.jsp">こちら</a>
+	新規登録は<%@ include file="u_reg.jsp"%>こちら
 </div>
 	<img src="./css/image/kirin.png" class="imagekirin">
     <img src="./css/image/zou.png" class="imagezou">

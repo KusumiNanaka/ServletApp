@@ -12,7 +12,7 @@
 <div class="whiteblock">
 <h1>全求人票表示</h1> <h5 style="text-align: right">詳細検索はこちら</h5>
 <h4>会社名を押すと詳細が見れます。</h4>
-<table border="1">
+<table border="1" align="center" >
   <tr>
     <th>会社名</th><th>企業検索</th><th>勤務地</th><th>業種</th><th>月収</th>
   </tr>

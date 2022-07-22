@@ -9,10 +9,9 @@
 </head>
 <body>
 <div class="whiteblock">
-	<h1>トップメニュー</h1>
-	どちらでご利用ですか？<br>
-	<a href="u_login.jsp">ユーザー</a><br>
-	<a href="a_login.jsp">管理者</a>
+	<h1>USER SELECT</h1>
+	<a href="u_login.jsp">・利用者</a><br>
+	<a href="a_login.jsp">・管理者</a>
 </div>
 	<img src="./css/image/kirin.png" class="imagekirin">
     <img src="./css/image/zou.png" class="imagezou">
